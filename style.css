@@ -4,6 +4,9 @@ body {
   background-color: #FEC5E5;
 }
 
+.center-text {
+  text-align: center;
+}
 
 .container {
   display: flex;
