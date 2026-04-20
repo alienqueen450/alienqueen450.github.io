@@ -6,3 +6,10 @@ body {
   min-height: 100vh;
   background-color: #FEC5E5;
 }
+
+.wrapper {
+  width: 90%;           /* Flexible width for mobile */
+  max-width: 600px;     /* Prevents it from getting too wide on desktop */
+  margin: 0 auto;       /* The "Magic" centering line */
+  text-align: center;   /* Centers the text inside the wrapper */
+}
