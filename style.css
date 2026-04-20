@@ -8,9 +8,22 @@ body {
   text-align: center;
 }
 
+ .wrapper {
+  max-width: 1200px; /* Or any width you prefer */
+  margin-inline: auto; /* Shorthand for margin-left: auto and margin-right: auto */
+}
+
+
 .container {
   display: flex;
   justify-content: center; /* Horizontal centering */
   align-items: center;     /* Vertical centering */
   height: 100vh;
 
+ body {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center;     /* Vertical centering */
+  min-height: 100vh;       /* Takes full height of the viewport */
+  margin: 0;               /* Removes default browser margins */
+}
