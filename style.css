@@ -5,17 +5,6 @@ body {
 }
 
 body {
-  display: grid;
-  place-items: center; /* Centers both directions at once */
-  min-height: 100vh;
-  margin: 0;
-}
- .wrapper {
-  max-width: 1200px; /* Or any width you prefer */
-  margin-inline: auto; /* Shorthand for margin-left: auto and margin-right: auto */
-}
-
- body {
   display: flex;
   justify-content: center; /* Horizontal centering */
   align-items: center;     /* Vertical centering */
