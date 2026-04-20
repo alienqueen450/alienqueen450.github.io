@@ -4,10 +4,12 @@ body {
   background-color: #FEC5E5;
 }
 
-.center-text {
-  text-align: center;
+body {
+  display: grid;
+  place-items: center; /* Centers both directions at once */
+  min-height: 100vh;
+  margin: 0;
 }
-
  .wrapper {
   max-width: 1200px; /* Or any width you prefer */
   margin-inline: auto; /* Shorthand for margin-left: auto and margin-right: auto */
