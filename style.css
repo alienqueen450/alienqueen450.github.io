@@ -1,13 +1,8 @@
-
-
 body {
-  background-color: #FEC5E5;
-}
-
-body {
+  margin: 0;
   display: flex;
-  justify-content: center; /* Horizontal centering */
-  align-items: center;     /* Vertical centering */
-  min-height: 100vh;       /* Takes full height of the viewport */
-  margin: 0;               /* Removes default browser margins */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #FEC5E5;
 }
