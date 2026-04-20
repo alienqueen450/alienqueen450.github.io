@@ -13,13 +13,6 @@ body {
   margin-inline: auto; /* Shorthand for margin-left: auto and margin-right: auto */
 }
 
-
-.container {
-  display: flex;
-  justify-content: center; /* Horizontal centering */
-  align-items: center;     /* Vertical centering */
-  height: 100vh;
-
  body {
   display: flex;
   justify-content: center; /* Horizontal centering */
